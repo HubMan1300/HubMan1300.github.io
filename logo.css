@@ -1,0 +1,89 @@
+body, h1, h2, h3, p, div, img {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background: rgb(48, 56, 169);
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+header {
+    flex: 1;
+}
+
+.banner {
+    position: relative;
+    z-index: 2;
+}
+
+.banner img {
+    width: 100%;
+    height: 10%;
+    display: block;
+}
+
+.cranelogo {
+    max-height: 250px;
+    width: 100%;
+    min-width: 100%;
+}
+
+footer {
+    background: rgb(48, 56, 169);
+    color: rgb(255, 255, 0);
+    text-align: center;
+    padding: 20px 0 20px 0;
+    border-top: rgb(255, 255, 0) solid 2px;
+    position: relative;
+    z-index: 1;
+}
+
+p #footer {
+    height: 20vh;
+}
+
+.details {
+    background: rgb(48, 56, 169);
+    text-align: right;
+    padding: 10px 25px 5px 0;
+    color: rgb(255, 255, 0);
+}
+
+.text1 {
+    background: rgb(48, 56, 169);
+    color: rgb(255, 255, 0);
+    font-weight: 100;
+    font-size: large;
+    padding: 5px;
+    text-align: center;
+    margin: 0 20px 0 20px;
+}
+
+.contain {
+    background: rgb(48, 56, 169);
+    padding: 10px;
+}
+
+.imgcrane {
+    border: rgb(255, 255, 0) solid 2px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    z-index: 0;
+    width: 100%;
+    max-width: 350px;
+    margin: 0 auto;
+    height: 40%;
+    max-height: 350px;
+
+}
